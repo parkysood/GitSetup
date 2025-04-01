@@ -34,6 +34,7 @@ if [ -n "$REPO_URL" ]; then
 	git remote add origin "$REPO_URL"
 	git pull origin main
  	git add .
+  	git commit -m "Initial commit"
 	git push -u origin main
 	echo "Pushed repository to GitHub ✅"
 else
