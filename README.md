@@ -5,8 +5,8 @@
 BASH script to automate local and remote Git setup.
 
 ## Prerequisites:
-🔑 BASH or ZSH shell (check by running `echo $0` in your terminal)
-🔑 Git installed on your system (see [Git Downloads](https://git-scm.com/downloads) for more information)
+- 🔑 BASH or ZSH shell (check by running `echo $0` in your terminal)
+- 🔑 Git installed on your system (see [Git Downloads](https://git-scm.com/downloads) for more information)
 
 ## Setup
 1. Run this command in your terminal to get the script from this repository: `curl -s https://raw.githubusercontent.com/parkysood/git-setup/main/git-setup.sh > git-setup.sh`
