@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author: Parikshit Sood
+# BASH script to automate the creation of local Git repository and link to remote repository on GitHub
+
 # Take directory input
 read -p "Enter the directory that you want to use as a git repo (enter '.' if it is the current directory): " REPO_NAME
 
