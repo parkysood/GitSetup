@@ -16,7 +16,7 @@ mv git-setup.sh git-setup
 chmod +x git-setup
 ```
 3. Finally add the script to your `$PATH` using this: `mv git-setup /usr/local/bin`
-- **NOTE: This assumes that `/usr/local/bin` is in your path**
+  - **NOTE: This assumes that `/usr/local/bin` is in your path**
 4. Check whether the installation worked by running `which git-setup` in your terminal. This should print `/usr/local/bin/git-setup` or something similar if your `$PATH` is different.
 
 ## Running
