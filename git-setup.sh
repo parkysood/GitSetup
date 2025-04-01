@@ -22,7 +22,7 @@ touch .gitignore
 echo "Created empty gitignore file ✅"
 
 # Get remote GitHub URL
-read -p "Enter you GitHub repo URL (or leave blank to skip): " REPO_URL
+read -p "Enter your GitHub repo URL (or leave blank to skip): " REPO_URL
 
 # Push to remote upstream
 if [ -n "$REPO_URL" ]; then
