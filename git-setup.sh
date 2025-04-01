@@ -33,6 +33,7 @@ if [ -n "$REPO_URL" ]; then
 	echo "Setup main branch ✅"
 	git remote add origin "$REPO_URL"
 	git pull origin main
+ 	git add .
 	git push -u origin main
 	echo "Pushed repository to GitHub ✅"
 else
