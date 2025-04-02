@@ -9,18 +9,24 @@ BASH script to automate local Git repository creation and linking to remote repo
 - 🔑 Git installed on your system (see [Git Downloads](https://git-scm.com/downloads) for more information)
 
 ## Setup
-1. Run this command in your terminal to get the script from this repository: `curl -s https://raw.githubusercontent.com/parkysood/GitSetup/main/git-setup.sh > git-setup.sh`
-2. Move the script you created into a directory called `git-setup` and give it executable permissions using these commands:
+1. Run this command in your terminal to get the script from this repository:
+```bash
+curl -s https://raw.githubusercontent.com/parkysood/GitSetup/main/git-setup.sh > git-setup.sh
+```
+3. Move the script you created into a directory called `git-setup` and give it executable permissions using these commands:
 ```bash
 mv git-setup.sh git-setup
 chmod +x git-setup
 ```
-3. Finally add the script to your `$PATH` using this: `mv git-setup /usr/local/bin`
+3. Finally add the script to your `$PATH` using this:
+```bash
+mv git-setup /usr/local/bin
+```
   - **NOTE: This assumes that `/usr/local/bin` is in your path**
 4. Check whether the installation worked by running `which git-setup` in your terminal. This should print `/usr/local/bin/git-setup` or something similar if your `$PATH` is different.
 
 ## Running
-Run `git setup` and follow the steps!
+Run ```git setup``` and follow the steps!
 
 
 
